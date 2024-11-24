@@ -1,0 +1,14 @@
+- aggiungere per il punto seguente un db per i pagamenti (per evitare di registrarli 2 o piu volte)
+- gestione down delserver : mettere listenre anche passato quando un utente lo richide da fe 
+- jwt back end
+- jwt fe
+- logica fe visualizzazione lefttry
+- utilizzo lefttry a vuoto (solo bottone)
+- aggiunegre logica al bottone try a pagamento
+- gestire i range e creare db range puzzle67 sul BE 
+- FE visualizzare/gestire range selezionabili e no
+- FE gestire giri MULTIPLI (magari con opzione fino fine getoni o solo 10/100/1000)
+- FE gestire creazione wallet vincente
+- FE Presentazione progetto/puzzle
+- FE effetti grafici animazioni 
+- FE cura generale
