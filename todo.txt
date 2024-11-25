@@ -1,5 +1,7 @@
 - aggiungere per il punto seguente un db per i pagamenti (per evitare di registrarli 2 o piu volte)
 - gestione down delserver : mettere listenre anche passato quando un utente lo richide da fe 
+- gestione downd del server fetch past event for all user from last block where fetch all user past events
+-------------------------------------------------------------------------------------------------
 - jwt back end
 - jwt fe
 - logica fe visualizzazione lefttry
@@ -12,3 +14,11 @@
 - FE Presentazione progetto/puzzle
 - FE effetti grafici animazioni 
 - FE cura generale
+
+
+curl -X POST http://localhost:5000/fetchAllPastEvents \
+-H "Content-Type: application/json"
+
+curl -X POST http://localhost:5000/fetchAllPastEvents \
+-H "Content-Type: application/json" \
+-H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZGRyZXNzIjoiMHhCZTlhN0JGZTA5YTRBODYzOTYxNENDYzE1ZDgzNTIxQTM4QzQwNkU3IiwiaWF0IjoxNzMyNDkwOTMyLCJleHAiOjE3MzI0OTQ1MzJ9.dndFrEg8FGTrs7-xVOYdVrVLxuw-WUOeH0R6vUJk5aQ"
